@@ -1,0 +1,178 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2020-10-19T01:15:00.614Z",
+  "__export_source": "insomnia.desktop.app:v2020.4.1",
+  "resources": [
+    {
+      "_id": "req_a876ab962b9649109158ae5f3f394af4",
+      "parentId": "wrk_75d98298f2e24ab68ff204533889a46a",
+      "modified": 1602727012578,
+      "created": 1602623446468,
+      "url": "http://localhost:3333/orphanages",
+      "name": "Criar orfanato",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "name": "name",
+            "value": "Abrigo Jesus Menino",
+            "id": "pair_9178e94994ad430f9226940f8fdc54b0"
+          },
+          {
+            "name": "latitude",
+            "value": "-8.0916604",
+            "description": "",
+            "id": "pair_d17cfb1e7d984fbeb2d1c46ef87c5bbf"
+          },
+          {
+            "name": "longitude",
+            "value": "-34.944294",
+            "description": "",
+            "id": "pair_b123cca493ee47fcbbb4c5518399e17e"
+          },
+          {
+            "name": "about",
+            "value": "A instituição atende crianças em situação de risco, negligência, maus tratos e abandono. Acolhemos crianças de 0 a 6 anos; ",
+            "description": "",
+            "id": "pair_36d5b197ffce49b6a161cc868bae6f67"
+          },
+          {
+            "name": "instructions",
+            "value": "Venham nós visitar, ligue e agende seu horário. Ajude nossas crianças, dê a elas uma chance de serem felizes",
+            "description": "",
+            "id": "pair_205e6b6871154bdd9b5d04ae1257b02b"
+          },
+          {
+            "name": "opening_hours",
+            "value": "Das 8h até 17h",
+            "description": "",
+            "id": "pair_eb6ea06ec81448609f7bb5d8544090f5"
+          },
+          {
+            "name": "open_on_weekends",
+            "value": "true",
+            "description": "",
+            "id": "pair_070cacbd61de479191f4495a3c59f45c"
+          },
+          {
+            "name": "images",
+            "value": "",
+            "description": "",
+            "id": "pair_6737a3d4c546491a9e0591fb02842249",
+            "type": "file",
+            "fileName": "/home/stevasc/Área de Trabalho/ajem-logo.jpg"
+          }
+        ]
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_934411bdc2374de08651610ebb0731aa"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1602623446468,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_75d98298f2e24ab68ff204533889a46a",
+      "parentId": null,
+      "modified": 1602622510749,
+      "created": 1602622510749,
+      "name": "Happy",
+      "description": "",
+      "scope": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_e65fa14eac254ea58dd417a38fdb03cd",
+      "parentId": "wrk_75d98298f2e24ab68ff204533889a46a",
+      "modified": 1602633283283,
+      "created": 1602633257821,
+      "url": "http://localhost:3333/orphanages",
+      "name": "Listagem de orfanatos",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1599605342129,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_68387e3b6eff454daedda70a18d662c7",
+      "parentId": "wrk_75d98298f2e24ab68ff204533889a46a",
+      "modified": 1602633469698,
+      "created": 1602633466311,
+      "url": "http://localhost:3333/orphanages/1",
+      "name": "Detalhe do orfanato",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1598096289959.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_ae5e7af18a4d7f1980aa80bd9a50301507edaf94",
+      "parentId": "wrk_75d98298f2e24ab68ff204533889a46a",
+      "modified": 1602622511496,
+      "created": 1602622511496,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1602622511496,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_ae5e7af18a4d7f1980aa80bd9a50301507edaf94",
+      "parentId": "wrk_75d98298f2e24ab68ff204533889a46a",
+      "modified": 1602622511500,
+      "created": 1602622511500,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_cda84fec13b24258aeeb408e1f3449df",
+      "parentId": "wrk_75d98298f2e24ab68ff204533889a46a",
+      "modified": 1602622510753,
+      "created": 1602622510753,
+      "fileName": "Happy",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
